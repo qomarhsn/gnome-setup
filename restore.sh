@@ -1,5 +1,5 @@
 #!/bin/bash
-# GNOME Restore Script
+# GNOME-Setup Restore Script
 
 set -eo pipefail
 trap 'echo -e "\nERROR: Restoration failed! Check permissions or paths." >&2; exit 1' ERR
