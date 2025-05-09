@@ -1,0 +1,93 @@
+[org/gnome/control-center]
+last-panel='background'
+window-state=(980, 640, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'Pardus']
+
+[org/gnome/desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+name='X-GNOME-Shell-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us')]
+
+[org/gnome/desktop/interface]
+accent-color='blue'
+color-scheme='default'
+font-name='Adwaita Sans 12'
+gtk-theme='Colloid-Dark-Compact-Dracula'
+icon-theme='Colloid-Dark'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-schedule-automatic=false
+
+[org/gnome/shell]
+app-picker-layout=[{'chromium.desktop': <{'position': <0>}>, 'cmake-gui.desktop': <{'position': <1>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <2>}>, 'org.flameshot.Flameshot.desktop': <{'position': <3>}>, 'openbangla-keyboard.desktop': <{'position': <4>}>, 'org.telegram.desktop.desktop': <{'position': <5>}>, 'org.gnome.Terminal.desktop': <{'position': <6>}>, 'org.gnome.Settings.desktop': <{'position': <7>}>, 'vlc.desktop': <{'position': <8>}>, 'codium-wayland.desktop': <{'position': <9>}>, 'zen.desktop': <{'position': <10>}>, 'System': <{'position': <11>}>}]
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'arcmenu@arcmenu.com', 'clipboard-indicator@tudmotu.com', 'logomenu@aryan_k', 'dash-to-dock@micxgx.gmail.com', 'gsconnect@andyholmes.github.io', 'PrivacyMenu@stuarthayhurst']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop']
+welcome-dialog-last-shown-version='48.1'
+
+[org/gnome/shell/extensions/Logo-menu]
+menu-button-extensions-app='com.mattjakeman.ExtensionManager.desktop'
+menu-button-icon-image=23
+menu-button-icon-size=21
+symbolic-icon=true
+use-custom-icon=false
+
+[org/gnome/shell/extensions/arcmenu]
+multi-monitor=true
+prefs-visible-page=0
+search-entry-border-radius=(true, 25)
+
+[org/gnome/shell/extensions/clipboard-indicator]
+cache-size=10
+history-size=30
+move-item-first=true
+paste-on-select=true
+toggle-menu=['<Alt>v']
+
+[org/gnome/shell/extensions/dash-to-dock]
+background-opacity=0.80000000000000004
+click-action='minimize-or-overview'
+custom-theme-shrink=true
+dash-max-icon-size=32
+dock-position='BOTTOM'
+height-fraction=0.90000000000000002
+preferred-monitor=-2
+preferred-monitor-by-connector='HDMI-1'
+show-mounts=false
+
+[org/gnome/shell/extensions/gsconnect]
+name='Arch'
+
+[org/gnome/shell/extensions/user-theme]
+name='Colloid-Dark-Compact-Dracula'
+
+[org/gnome/tweaks]
+show-extensions-notice=false
+
+[org/gtk/gtk4/settings/file-chooser]
+show-hidden=false
+sort-directories-first=false
