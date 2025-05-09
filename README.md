@@ -5,8 +5,11 @@ I’ve uploaded it here to make it easy to set up again in the future.
 
 ## Preview
 
-![Screenshot 1](/Screenshot/preview1.png)
-![Screenshot 2](/Screenshot/preview2.png)
+<p align="center">
+  <img src="Screenshot/preview1.png" alt="Screenshot 1" width="45%" style="margin-right: 2%;">
+  <img src="Screenshot/preview2.png" alt="Screenshot 2" width="45%">
+</p>
+
 
 ## How to Use
 
